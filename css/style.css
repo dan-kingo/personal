@@ -761,9 +761,10 @@ section {
   padding: 10px 15px;
 }
 
-.contact .php-email-form button[type="submit"] {
+.contact .php-email-form .send {
   background: teal;
   border: 0;
+  text-decoration: none;
   width: 90%;
   padding: 10px 24px;
   color: #fff;
@@ -772,7 +773,7 @@ section {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+.contact .php-email-form .send:hover {
   background: rgb(4, 106, 106);
   width: 100%;
 }

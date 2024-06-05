@@ -85,6 +85,8 @@ h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+.am-img {
+}
 #header {
   position: fixed;
   top: 0;
@@ -333,9 +335,12 @@ section {
 }
 
 .am-img {
-  height: 350px;
+  height: 360px;
 
-  max-width: 100%;
+  width: 260px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 2px 3px 5px #9d9da3;
 }
 .section-bg {
   background: #f5f8fd;

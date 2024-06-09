@@ -559,6 +559,32 @@ section {
   background: #b9c8db;
 }
 
+.show-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.show-more button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #10918b;
+  border-radius: 36px;
+  padding: 0.5rem 1rem;
+  background-color: #10918b;
+  color: #fff;
+  gap: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.show-more img {
+  width: 20px;
+  /* margin-left: 8px; */
+}
+.show-more button:hover {
+  gap: 20px;
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/

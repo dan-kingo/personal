@@ -789,6 +789,14 @@ section {
 
 .contact .php-email-form textarea {
   padding: 10px 15px;
+  resize: none;
+}
+.text-center button {
+  background-color: #10918b;
+  padding: 0.5rem 1rem;
+  border-radius: 36px;
+  color: #fff;
+  border: none;
 }
 
 .contact .php-email-form .send {

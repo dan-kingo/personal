@@ -85,8 +85,7 @@ h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-.am-img {
-}
+
 #header {
   position: fixed;
   top: 0;
@@ -106,7 +105,7 @@ h6 {
   display: block;
   width: 120px;
   height: 120px;
-  border-radius: 60px;
+  border-radius: 50%;
   border: 8px solid #2c2f3f;
 }
 
